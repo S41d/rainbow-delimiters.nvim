@@ -34,6 +34,14 @@
   "{" @delimiter
   "}" @delimiter @sentinel) @container
 
+(for_expression
+  "{" @delimiter
+  "}" @delimiter @sentinel) @container
+
+(parenthesized_expression
+  "(" @delimiter
+  ")" @delimiter @sentinel) @container
+
 (template_body
   "{" @delimiter
   "}" @delimiter @sentinel) @container
